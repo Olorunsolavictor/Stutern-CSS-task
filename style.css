@@ -1,0 +1,148 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body {
+ height: 2209.62px;
+ text-align: center;
+ font-family: "Merriweather", serif;
+}
+
+.Container1 {
+    background-color: #66bfbf;
+    height: 508px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-section h1 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "Sacramento", cursive;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+.top-section p {
+    margin-bottom: 0px;
+}
+ .buttom-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    align-items: flex-start;
+ }
+ .right-container h2{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28.8px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-left: 0px;
+ }
+ .right-container p {
+     line-height: 16px;
+ }
+
+ .left-container {
+    padding-left: 10px;
+}
+
+.container2 {
+    padding: 30px 0;
+    line-height: 32px;
+    
+}
+.container2 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28.8px;
+    color: #66bfbf;
+}
+.programming {
+    padding: 20px 0;
+}
+.programming h3, .front-end h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+
+.container3 {
+    padding: 50px 0;
+    line-height: 2;
+    background-color: #acdbdb;
+    border-top: 1px solid #0000004a;
+}
+.container3 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28.8px;
+    color: #66bfbf;
+    
+}
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+
+
+
+.container4 {
+    padding: 40px 0;
+    line-height: 2;
+}
+
+.container4 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28.8px;
+    color: #66bfbf;
+    
+}
+.container4 h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+    
+    }
+.gender-hobbies-container {
+    display: flex;
+    justify-content: space-around;
+}
+.form-section {
+   padding: 30px;
+}
+.button {
+    background-color: #11999e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.footer {
+    padding: 20px 0;
+    line-height: 2;
+    background-color: #11999e;
+}
+@media screen and (max-width: 600px){
+    .Container1 {
+        height: 600px;
+    }  
+}
